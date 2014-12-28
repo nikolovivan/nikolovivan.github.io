@@ -5,4 +5,8 @@ body {
 .main-template {
     padding: 40px 15px;
     text-align: center;
-} 
+}
+
+.footer {
+	padding: 10px 0 0 0;
+}
