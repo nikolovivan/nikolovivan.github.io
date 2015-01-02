@@ -1,5 +1,11 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
 body {
     padding-top: 50px;
+    margin-bottom: 60px;
 }
 
 .main-template {
@@ -8,5 +14,10 @@ body {
 }
 
 .footer {
-	padding: 10px 0 0 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	padding: 20px 0 0 0;
 }
